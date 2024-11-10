@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+
+-fonte-secundaria: 'Krona One', sans-serif;
+--fonte-primaria: 'Montserrat', sans-serif;
+--cor-de-fundo: #F2F2F2;
+--cor-de-fundo-imagem: #f0ffff;
+--cor-de-fundo-formulario: #635EF2;
+--cor-de-fundo-botton: f0f8ff;
+--cor-de-fundo-hover: #5e9247;
+--cor-fonte-botao: #f5f5dc;
+--cor-fonte-formulario: #F2F2F2;
+--cor-sublinhado: #F2B3B3;
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-primaria);
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--cor-de-fundo);
+}
+.container {
+    width: 85%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+}
+.form-image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-de-fundo-imagem);
+    padding: 1rem;
+
+}
+
+.form-image img {
+    width: 31rem;
+}
+.form{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction:column;
+    background-color: var(--cor-de-fundo-formulario);
+    padding: 3rem;
+    color: var(--cor-fonte-formulario);
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.login-button{
+    display:  flex;
+    align-items: center;
+
+}
+
+.login-button button{
+    border: none;
+    background-color: var(--cor-de-fundo-botton);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-button button:hover{
+    background-color: var(--cor-de-fundo-hover);
+    
+}
+
+.login-button botton a{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(cor-fonte-botao);
+
+}
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: var(--cor-sublinhado);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+

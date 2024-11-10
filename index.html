@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image"> 
+            <img src="assets/img/walkingDog.svg" alt="">
+        </div>
+
+<!-- Inicio do formulario-->
+        <div class="form"> 
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>CLINICA VETERINÁRIA CENTRAL</h1>
+                        <h3>Cadastro de PET</h3>
+
+                    </div>
+                    <div class="login-button">
+                        <button> <a href="#">Entrar</a> </button>
+                    </div>
+                </div>
+                <div class="input-group">
+<!-- Inicio dos campos-->
+                       <!--campo nome tutor-->
+                    <div class="input-box">
+                        <label for="tutorname">Nome do tutor</label>
+                        <input id="tutorname" type="text" name="tutorname"  placeholder="Digite seu nome completo" required>
+                    </div>
+                        <!-- campo cpf-->
+                        <div class="input-box">
+                            <label for="cpf">CPF</label>
+                            <input id="cpf" type="number" name="cpf" placeholder="xxx.xxx.xxx-xx" required>
+                        </div>
+                        <!-- campo email-->
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="firstname" type="email" name="firstname" placeholder="Digite seu email" required>
+                    </div>
+
+                        <!-- campo celular-->
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                        <!-- campo senha-->
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="passworld" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                        <!-- campo confirma senha-->
+                        <div class="input-box">
+                            <label for="Confirmpassword">Confirme sua senha</label>
+                            <input id="Confirmpassword" type="Confirmpassword" name="Confirmpassword" placeholder="Digite sua senha" required>
+                        </div>
+                     </div>
+
+                        <!-- campo nome do pet-->
+                     <div class="input-box">
+                        <label for="petname">Nome do pet</label>
+                        <input id="petname" type="text" name="petname" placeholder="Digite o nome do pet" required>
+                    </div>
+
+                    
+                <!-- campo especie -->
+
+                     <!-- opcao de especie-->
+                     <div class="specie-inputs">
+                        <div class="specie-title">
+                            <h6>Espécie</h6>
+                        </div>
+
+                    <!-- opcao Canino-->    
+                        <div class="specie-group">
+                            <div class="specie-input">
+                                <input type="radio" id="canino" name="canino">
+                                <label for="canino">Canino</label>
+                            </div>
+                        </div>    
+                   
+                            <!-- opcao felino-->    
+                        <div class="specie-group">
+                            <div class="specie-input">
+                                <input type="radio" id="felino" name="felino">
+                                <label for="felino">Felino</label>
+                            </div>
+                        </div>
+
+                        <!-- opcao aves-->    
+                        <div class="specie-group">
+                            <div class="specie-input">
+                                <input type="radio" id="ave" name="ave">
+                                <label for="ave">Ave</label>
+                            </div>
+                        </div>
+
+                        <!-- opcao roedor-->    
+                        <div class="specie-group">
+                            <div class="specie-input">
+                                <input type="radio" id="roedor" name="roedor">
+                                <label for="roedor">Roedor</label>
+                            </div>
+                        </div>
+
+                        <!-- opcao reptil-->    
+                        <div class="specie-group">
+                            <div class="specie-input">
+                                <input type="radio" id="reptil" name="reptil">
+                                <label for="repit">Réptil</label>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                <!-- fim campo especie-->
+
+                    <!-- campo raca do pet-->
+                        <div class="input-box">
+                            <label for="petbreed">Raça do pet</label>
+                            <input id="petbreed" type="text" name="petbreed" placeholder="Digite o nome do pet" required>
+                        </div>
+
+                     <!-- inicio opcao de genero-->
+                     <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                    <!-- opcao femea-->    
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Fêmea</label>
+                            </div>
+                        </div>    
+                    <!-- opcao macho-->    
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Macho</label>
+    
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Fim opcao de genero-->
+                 
+                <!-- campo nome data nascimento-->
+                    <div class="input-box">
+                        <label for="birthpet">Data de nascimento do pet</label>
+                        <input id="birthpet" type="date" name="birthpet" placeholder="Digite data de nascimento" required>
+                    </div>
+
+
+
+
+                 <div class="continue-button">
+                    <button> <a href="#">Continuar</a></button>
+                 </div>
+                     
+                </form>
+        </div>
+    </div>
+
+</body>
+</html>
